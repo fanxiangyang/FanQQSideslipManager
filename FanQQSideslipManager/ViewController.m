@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "FanSideslipManager/FanSideslipManager.h"
+#import "ViewControllers/FanLeftViewController.h"
+#import "ViewControllers/FanTabBarController.h"
+#import "ViewControllers/FanpushViewController.h"
 
 @interface ViewController ()
 
@@ -16,8 +20,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor=[UIColor greenColor];
+    
+    FanLeftViewController *leftVC=[FanLeftViewController new];
+    FanTabBarController *tabBarVC=[FanTabBarController new];
+    [[FanSideslipManager shareInstance]fan_sideslipInitWithRootView:self.view leftViewcontroller:leftVC tabBarController:tabBarVC];
     // Do any additional setup after loading the view, typically from a nib.
 }
+//-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+//    FanpushViewController *push=[[FanpushViewController alloc]init];
+//    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:push];
+//    [self presentViewController:nav animated:YES completion:^{
+//
+//    }];
+//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

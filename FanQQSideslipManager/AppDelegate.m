@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "FanSideslipManager/FanSideslipManager.h"
+#import "ViewControllers/FanLeftViewController.h"
+#import "ViewControllers/FanTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //
+    //
+    //    FanLeftViewController *leftVC=[FanLeftViewController new];
+    //    FanTabBarController *tabBarVC=[FanTabBarController new];
+    //    [[FanSideslipManager shareInstance]fan_sideslipInitWithRootView:self.window leftViewcontroller:leftVC tabBarController:tabBarVC];
+    //
+    //
+    //    self.window.backgroundColor = [UIColor cyanColor];
+    //    //让窗体可见
+    //    [self.window makeKeyAndVisible];
     return YES;
 }
 
