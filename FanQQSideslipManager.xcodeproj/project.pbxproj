@@ -23,6 +23,7 @@
 		66B4F26F1B233233005B7FA9 /* FanpushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4F2671B233233005B7FA9 /* FanpushViewController.m */; };
 		66B4F2701B233233005B7FA9 /* FanTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4F2691B233233005B7FA9 /* FanTabBarController.m */; };
 		66B4F2711B233233005B7FA9 /* OtherPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4F26B1B233233005B7FA9 /* OtherPageViewController.m */; };
+		66B4F2741B2350DD005B7FA9 /* FanRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4F2731B2350DD005B7FA9 /* FanRightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		66B4F2691B233233005B7FA9 /* FanTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FanTabBarController.m; path = ViewControllers/FanTabBarController.m; sourceTree = "<group>"; };
 		66B4F26A1B233233005B7FA9 /* OtherPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OtherPageViewController.h; path = ViewControllers/OtherPageViewController.h; sourceTree = "<group>"; };
 		66B4F26B1B233233005B7FA9 /* OtherPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OtherPageViewController.m; path = ViewControllers/OtherPageViewController.m; sourceTree = "<group>"; };
+		66B4F2721B2350DD005B7FA9 /* FanRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanRightViewController.h; sourceTree = "<group>"; };
+		66B4F2731B2350DD005B7FA9 /* FanRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanRightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 				66B4F2611B233233005B7FA9 /* FanHomeViewController.m */,
 				66B4F2621B233233005B7FA9 /* FanLeftViewController.h */,
 				66B4F2631B233233005B7FA9 /* FanLeftViewController.m */,
+				66B4F2721B2350DD005B7FA9 /* FanRightViewController.h */,
+				66B4F2731B2350DD005B7FA9 /* FanRightViewController.m */,
 				66B4F2641B233233005B7FA9 /* FanNavigationController.h */,
 				66B4F2651B233233005B7FA9 /* FanNavigationController.m */,
 				66B4F2661B233233005B7FA9 /* FanpushViewController.h */,
@@ -289,6 +294,7 @@
 				66B4F25E1B2331EB005B7FA9 /* FanSideslipManager.m in Sources */,
 				66B4F26C1B233233005B7FA9 /* FanHomeViewController.m in Sources */,
 				66B4F2331B232F43005B7FA9 /* ViewController.m in Sources */,
+				66B4F2741B2350DD005B7FA9 /* FanRightViewController.m in Sources */,
 				66B4F2301B232F43005B7FA9 /* AppDelegate.m in Sources */,
 				66B4F22D1B232F43005B7FA9 /* main.m in Sources */,
 				66B4F2701B233233005B7FA9 /* FanTabBarController.m in Sources */,
@@ -492,6 +498,7 @@
 				66B4F24C1B232F43005B7FA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66B4F24D1B232F43005B7FA9 /* Build configuration list for PBXNativeTarget "FanQQSideslipManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +507,7 @@
 				66B4F24F1B232F43005B7FA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

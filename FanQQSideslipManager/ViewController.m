@@ -11,6 +11,7 @@
 #import "ViewControllers/FanLeftViewController.h"
 #import "ViewControllers/FanTabBarController.h"
 #import "ViewControllers/FanpushViewController.h"
+#import "FanRightViewController.h"
 
 @interface ViewController ()
 
@@ -23,18 +24,30 @@
     self.view.backgroundColor=[UIColor greenColor];
     
     FanLeftViewController *leftVC=[FanLeftViewController new];
+    FanRightViewController *rightVC=[FanRightViewController new];
     FanTabBarController *tabBarVC=[FanTabBarController new];
-    [[FanSideslipManager shareInstance]fan_sideslipInitWithRootView:self.view leftViewcontroller:leftVC tabBarController:tabBarVC];
+    [[FanSideslipManager shareInstance]fan_sideslipInitWithRootView:self.view leftViewcontroller:leftVC rightViewController:rightVC mainViewController:tabBarVC];
+    
+    [FanSideslipManager shareInstance].delegate=self;
+    [FanSideslipManager shareInstance].fan_sideslipDerection=FanSideslipDirectionAll;
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 //-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
 //    FanpushViewController *push=[[FanpushViewController alloc]init];
 //    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:push];
+//    nav.navigationBar.translucent=NO;
+//    nav.navigationBar.hidden=YES;
 //    [self presentViewController:nav animated:YES completion:^{
 //
 //    }];
 //}
 
+#pragma mark - FanSideslipManagerDelegate
+-(void)fanSideslipManager:(FanSideslipManager *)sideslipManager panGuesture:(UIPanGestureRecognizer *)pan{
+    CGFloat x=[pan translationInView:sideslipManager.fan_rootView].x;
+    NSLog(@"-----[实际距离：%f]------",x);
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

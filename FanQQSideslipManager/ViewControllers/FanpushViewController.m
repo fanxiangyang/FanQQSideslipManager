@@ -22,8 +22,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    FanLeftViewController *leftVC=[FanLeftViewController new];
+//    FanRightViewController *rightVC=[FanRightViewController new];
 //    FanTabBarController *tabBarVC=[FanTabBarController new];
-//    [[FanSideslipManager shareInstance]fan_sideslipInitWithRootView:self.view leftViewcontroller:leftVC tabBarController:tabBarVC];
+//    [[FanSideslipManager shareInstance]fan_sideslipInitWithRootView:self.view leftViewcontroller:leftVC rightViewController:rightVC mainViewController:tabBarVC];
     // Do any additional setup after loading the view.
 }
 

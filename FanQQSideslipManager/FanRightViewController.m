@@ -1,23 +1,28 @@
 //
-//  OtherPageViewController.m
-//  QQSlide
+//  FanRightViewController.m
+//  FanQQSideslipManager
 //
-//  Created by 向阳凡 on 15/6/6.
+//  Created by 向阳凡 on 15/6/7.
 //  Copyright (c) 2015年 向阳凡. All rights reserved.
 //
 
-#import "OtherPageViewController.h"
-#import "FanSideslipManager.h"
+#import "FanRightViewController.h"
 
-@interface OtherPageViewController ()
+@interface FanRightViewController ()
 
 @end
 
-@implementation OtherPageViewController
+@implementation FanRightViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor=[UIColor purpleColor];
+    self.view.backgroundColor=[UIColor magentaColor];
+    
+    
+    UILabel *lable=[[UILabel alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 20)];
+    lable.backgroundColor=[UIColor whiteColor];
+    lable.text=@"1234567890";
+    [self.view addSubview:lable];
 
     // Do any additional setup after loading the view.
 }
@@ -26,14 +31,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
-    [[FanSideslipManager shareInstance] fan_addPanGesture];
-}
--(void)viewWillDisappear:(BOOL)animated{
-    [super viewWillDisappear:animated];
-    [[FanSideslipManager shareInstance] fan_removePanGesture];
-}
+
 /*
 #pragma mark - Navigation
 
