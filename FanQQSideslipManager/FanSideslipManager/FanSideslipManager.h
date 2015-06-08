@@ -60,13 +60,13 @@ typedef NS_ENUM(NSInteger, FanSideslipDirection) {
 @interface FanSideslipManager : NSObject<UIGestureRecognizerDelegate>
 
 #pragma mark - 外界传过来的视图及view
-/** 侧滑的底RootView */
+/** 侧滑的底RootView 不可为nil*/
 @property(nonatomic,strong)UIView *fan_rootView;
-/** 左视图控制器 */
+/** 左视图控制器 可以为nil */
 @property(nonatomic,strong)UIViewController *fan_leftViewController;
-/** 右视图控制器 */
+/** 右视图控制器 可以为nil */
 @property(nonatomic,strong)UIViewController *fan_rightViewController;
-/** 主视图控制器 (可以是viewController,navgationController,tabBarController) */
+/** 主视图控制器 (可以是viewController,navgationController,tabBarController) 不能为空 */
 @property(nonatomic,strong)UIViewController *fan_mainViewController;
 
 
