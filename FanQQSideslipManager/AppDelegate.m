@@ -7,9 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "FanSideslipManager/FanSideslipManager.h"
-#import "ViewControllers/FanLeftViewController.h"
-#import "ViewControllers/FanTabBarController.h"
+#import "FanSideslipManager.h"
+#import "FanLeftViewController.h"
+#import "FanTabBarController.h"
 
 @interface AppDelegate ()
 

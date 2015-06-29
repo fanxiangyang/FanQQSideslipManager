@@ -16,7 +16,6 @@
 		66B4F2471B232F43005B7FA9 /* FanQQSideslipManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4F2461B232F43005B7FA9 /* FanQQSideslipManagerTests.m */; };
 		66B4F2591B23317D005B7FA9 /* move@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66B4F2571B23317D005B7FA9 /* move@2x.png */; };
 		66B4F25A1B23317D005B7FA9 /* unmove@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66B4F2581B23317D005B7FA9 /* unmove@2x.png */; };
-		66B4F25E1B2331EB005B7FA9 /* FanSideslipManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4F25D1B2331EB005B7FA9 /* FanSideslipManager.m */; };
 		66B4F26C1B233233005B7FA9 /* FanHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4F2611B233233005B7FA9 /* FanHomeViewController.m */; };
 		66B4F26D1B233233005B7FA9 /* FanLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4F2631B233233005B7FA9 /* FanLeftViewController.m */; };
 		66B4F26E1B233233005B7FA9 /* FanNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4F2651B233233005B7FA9 /* FanNavigationController.m */; };
@@ -24,6 +23,7 @@
 		66B4F2701B233233005B7FA9 /* FanTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4F2691B233233005B7FA9 /* FanTabBarController.m */; };
 		66B4F2711B233233005B7FA9 /* OtherPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4F26B1B233233005B7FA9 /* OtherPageViewController.m */; };
 		66B4F2741B2350DD005B7FA9 /* FanRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4F2731B2350DD005B7FA9 /* FanRightViewController.m */; };
+		66DDEE6D1B4126490011F21C /* FanSideslipManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDEE6C1B4126490011F21C /* FanSideslipManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,6 @@
 		66B4F2461B232F43005B7FA9 /* FanQQSideslipManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanQQSideslipManagerTests.m; sourceTree = "<group>"; };
 		66B4F2571B23317D005B7FA9 /* move@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "move@2x.png"; sourceTree = "<group>"; };
 		66B4F2581B23317D005B7FA9 /* unmove@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unmove@2x.png"; sourceTree = "<group>"; };
-		66B4F25C1B2331EB005B7FA9 /* FanSideslipManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FanSideslipManager.h; path = FanSideslipManager/FanSideslipManager.h; sourceTree = "<group>"; };
-		66B4F25D1B2331EB005B7FA9 /* FanSideslipManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FanSideslipManager.m; path = FanSideslipManager/FanSideslipManager.m; sourceTree = "<group>"; };
 		66B4F2601B233233005B7FA9 /* FanHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FanHomeViewController.h; path = ViewControllers/FanHomeViewController.h; sourceTree = "<group>"; };
 		66B4F2611B233233005B7FA9 /* FanHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FanHomeViewController.m; path = ViewControllers/FanHomeViewController.m; sourceTree = "<group>"; };
 		66B4F2621B233233005B7FA9 /* FanLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FanLeftViewController.h; path = ViewControllers/FanLeftViewController.h; sourceTree = "<group>"; };
@@ -68,6 +66,8 @@
 		66B4F26B1B233233005B7FA9 /* OtherPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OtherPageViewController.m; path = ViewControllers/OtherPageViewController.m; sourceTree = "<group>"; };
 		66B4F2721B2350DD005B7FA9 /* FanRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanRightViewController.h; sourceTree = "<group>"; };
 		66B4F2731B2350DD005B7FA9 /* FanRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanRightViewController.m; sourceTree = "<group>"; };
+		66DDEE6B1B4126490011F21C /* FanSideslipManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FanSideslipManager.h; path = FanSideslipManager/FanSideslipManager.h; sourceTree = "<group>"; };
+		66DDEE6C1B4126490011F21C /* FanSideslipManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FanSideslipManager.m; path = FanSideslipManager/FanSideslipManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,8 +162,8 @@
 		66B4F25B1B2331B2005B7FA9 /* FanSideslipManager */ = {
 			isa = PBXGroup;
 			children = (
-				66B4F25C1B2331EB005B7FA9 /* FanSideslipManager.h */,
-				66B4F25D1B2331EB005B7FA9 /* FanSideslipManager.m */,
+				66DDEE6B1B4126490011F21C /* FanSideslipManager.h */,
+				66DDEE6C1B4126490011F21C /* FanSideslipManager.m */,
 			);
 			name = FanSideslipManager;
 			sourceTree = "<group>";
@@ -238,6 +238,7 @@
 				TargetAttributes = {
 					66B4F2261B232F43005B7FA9 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = W2QU362M8R;
 					};
 					66B4F23F1B232F43005B7FA9 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -291,7 +292,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66B4F25E1B2331EB005B7FA9 /* FanSideslipManager.m in Sources */,
 				66B4F26C1B233233005B7FA9 /* FanHomeViewController.m in Sources */,
 				66B4F2331B232F43005B7FA9 /* ViewController.m in Sources */,
 				66B4F2741B2350DD005B7FA9 /* FanRightViewController.m in Sources */,
@@ -300,6 +300,7 @@
 				66B4F2701B233233005B7FA9 /* FanTabBarController.m in Sources */,
 				66B4F26E1B233233005B7FA9 /* FanNavigationController.m in Sources */,
 				66B4F26F1B233233005B7FA9 /* FanpushViewController.m in Sources */,
+				66DDEE6D1B4126490011F21C /* FanSideslipManager.m in Sources */,
 				66B4F2711B233233005B7FA9 /* OtherPageViewController.m in Sources */,
 				66B4F26D1B233233005B7FA9 /* FanLeftViewController.m in Sources */,
 			);
@@ -429,9 +430,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jiang zhilei (QT782K6VC2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jiang zhilei (QT782K6VC2)";
 				INFOPLIST_FILE = FanQQSideslipManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "66979193-67f4-47fa-aa08-05a49bd9649f";
 			};
 			name = Debug;
 		};
@@ -439,9 +444,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jiang zhilei (QT782K6VC2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jiang zhilei (QT782K6VC2)";
 				INFOPLIST_FILE = FanQQSideslipManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "66979193-67f4-47fa-aa08-05a49bd9649f";
 			};
 			name = Release;
 		};

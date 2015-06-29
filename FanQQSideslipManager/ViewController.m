@@ -7,10 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "FanSideslipManager/FanSideslipManager.h"
-#import "ViewControllers/FanLeftViewController.h"
-#import "ViewControllers/FanTabBarController.h"
-#import "ViewControllers/FanpushViewController.h"
+#import "FanSideslipManager.h"
+#import "FanLeftViewController.h"
+#import "FanTabBarController.h"
+#import "FanpushViewController.h"
 #import "FanRightViewController.h"
 
 @interface ViewController ()
