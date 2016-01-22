@@ -1,6 +1,7 @@
 # FanQQSideslipManager
 QQSideslip
 
+![动画](https://github.com/fanxiangyang/FanQQSideslipManager/blob/master/QQSideslip.gif?raw=true)
 
 ###  功能介绍
 ##### 功能介绍：采用类似QQ侧滑效果，封装与一个类中，使用方便，具体使用如下
