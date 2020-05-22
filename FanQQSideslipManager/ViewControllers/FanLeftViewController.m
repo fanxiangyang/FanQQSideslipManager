@@ -24,8 +24,18 @@
     lable.text=@"1234567890";
     [self.view addSubview:lable];
     // Do any additional setup after loading the view.
+    
+    UIButton *btn=[UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setTitle:@"LeftButton" forState:UIControlStateNormal];
+    btn.frame=CGRectMake(0, 0, 200, 30);
+    [btn setTitleColor:[UIColor purpleColor] forState:UIControlStateNormal];
+    btn.center=self.view.center;
+    [btn addTarget:self action:@selector(pushVC) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 }
-
+-(void)pushVC{
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -29,6 +29,7 @@
     [[FanSideslipManager shareInstance]fan_sideslipInitWithRootView:self.view leftViewcontroller:leftVC rightViewController:rightVC mainViewController:tabBarVC];
     
     [FanSideslipManager shareInstance].delegate=self;
+//    [FanSideslipManager shareInstance].fan_proportion=1.0;
     [FanSideslipManager shareInstance].fan_sideslipDerection=FanSideslipDirectionAll;
 
     // Do any additional setup after loading the view, typically from a nib.
